@@ -47,7 +47,7 @@ button {
 ul {
   border: 3px solid;
   margin-top: 10%;
-	list-style: none;
+  list-style: none;
 }
 
 form {
@@ -66,14 +66,14 @@ form input {
 
 form input,
 .list {
-	font-size: 1.5em;
+  font-size: 1.5em;
   font-weight: 700;
   height: 2em;
   padding: 0.5em;
 }
 
 .list:nth-child(even) {
-	background: rgb(230, 224, 224);
+  background: rgb(230, 224, 224);
 }
 
 footer {
