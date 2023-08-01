@@ -1,16 +1,16 @@
 {
-  "name": "webpack",
+  "name": "leaderboard",
   "version": "1.0.0",
-  "description": "Set up a Webpack boilerplate",
+  "description": "A JavaScript project for the Leaderboard list application.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "dev": "webpack serve"
+    "start": "webpack serve --open"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@babel/preset-env": "^7.22.9",
