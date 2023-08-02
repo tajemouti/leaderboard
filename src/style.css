@@ -20,7 +20,7 @@ h2 {
 main {
   display: flex;
   gap: 10%;
-  margin: 5%;
+  margin: 2% 5%;
 }
 
 section {
@@ -46,7 +46,7 @@ button {
 
 ul {
   border: 3px solid;
-  margin-top: 10%;
+  margin-top: 5%;
   list-style: none;
 }
 
@@ -55,7 +55,7 @@ form {
   flex-direction: column;
   align-items: flex-end;
   gap: 2em;
-  margin-top: 10%;
+  margin-top: 5%;
   width: 75%;
 }
 
@@ -66,8 +66,8 @@ form input {
 
 form input,
 .list {
-  font-size: 1.5em;
-  font-weight: 700;
+  font-size: 1.2em;
+  font-weight: 600;
   height: 2em;
   padding: 0.5em;
 }
