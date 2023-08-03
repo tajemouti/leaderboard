@@ -7,6 +7,8 @@
 body {
   margin-left: 10%;
   margin-top: 1em;
+  background: url('./ac7-1.png');
+  background-size: cover;
 }
 
 h1 {
