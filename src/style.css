@@ -22,7 +22,7 @@ h2 {
 main {
   display: flex;
   gap: 10%;
-  margin: 2% 5%;
+  margin: 2% 5% 10% 5%;
 }
 
 section {
@@ -81,15 +81,16 @@ form input,
   font-weight: 600;
   height: 2em;
   padding: 0.5em;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .list:nth-child(even) {
-  background: rgb(230, 224, 224);
+  background: rgba(230, 224, 224, 0.8);
 }
 
 footer {
   background: rgb(230, 224, 224);
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   left: 0;
@@ -111,6 +112,7 @@ footer {
   main {
     flex-direction: column;
     align-items: center;
+    gap: 0px;
     margin: 5% 1% 20% 1%;
   }
 
