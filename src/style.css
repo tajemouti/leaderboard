@@ -7,6 +7,8 @@
 body {
   margin-left: 10%;
   margin-top: 1em;
+  background: url('./ac7-1.png');
+  background-size: cover;
 }
 
 h1 {
@@ -20,7 +22,7 @@ h2 {
 main {
   display: flex;
   gap: 10%;
-  margin: 2% 5%;
+  margin: 2% 5% 10% 5%;
 }
 
 section {
@@ -35,13 +37,22 @@ section {
 }
 
 button {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.2);
   border: 3px solid;
   box-shadow: 3px 2px 2px;
   padding: 8px 16px;
   font-size: 18px;
   font-weight: 700;
   width: 6em;
+  transition: transfom 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:focus {
+  transform: scale(1);
 }
 
 ul {
@@ -70,19 +81,49 @@ form input,
   font-weight: 600;
   height: 2em;
   padding: 0.5em;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .list:nth-child(even) {
-  background: rgb(230, 224, 224);
+  background: rgba(230, 224, 224, 0.8);
 }
 
 footer {
   background: rgb(230, 224, 224);
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   left: 0;
   padding: 1% 10%;
   font-size: 2em;
   font-weight: 700;
+}
+
+@media (width <= 592px) {
+  body {
+    background: url('./ac7-2.png');
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 1% 20% 1%;
+  }
+
+  section {
+    width: auto;
+  }
+
+  ul {
+    margin-bottom: 5%;
+  }
+
+  form {
+    width: auto;
+  }
 }
